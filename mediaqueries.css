@@ -1,0 +1,31 @@
+/* media queries css file for mediaqueries.html fiele linked it  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+nav {
+  font-size: 1.5em;
+}
+
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 300px) {
+  h1 {
+    color: purple;
+  }
+}
+@media (max-width: 300px) {
+  h1 {
+    color: rgb(214, 7, 52);
+  }
+}
